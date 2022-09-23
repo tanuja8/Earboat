@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+.welcome img{
+    width: 350px;
+    height: 300px;
+    transition: transform 3s ease-in-out;
+    clip-path: circle();
+  
+}
+.welcome img:hover  {
+
+    transform: rotate(360deg);
+}
+
+.col-lg-6 img{
+    width: 350px;
+    height: 300px;
+    clip-path: circle()
+    
+}
+.col-lg-6:hover img{
+transform: rotateZ(360deg);
+}
+span{
+    color: red;
+}
