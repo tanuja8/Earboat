@@ -1,0 +1,47 @@
+.designnavbar{
+    background-color: black;
+    font-size: 20px;
+    font-weight: 8px;
+    gap: 100px;
+
+}
+.imgcarosule{
+    height: 600px;
+    object-fit: cover;
+}
+.texth4{
+    font-size: 20px;
+    font-weight: 10px;
+    color: red;
+}
+.headphimg img{
+    width: 350px;
+    height: 300px;
+}
+.zoom_img{
+    overflow: hidden;
+}
+
+.zoom_img img{
+    transition: all 1.3s ease;
+}
+.zoom_img:hover img{
+    transform: scale(1.2);
+
+}
+.footer_icon{
+    color:white;
+    font-size: 60px;
+    text-align: center;  
+}
+.brand_headphone img{
+    width: 200px;
+    height: 200px;
+}
+.img_gallery img{
+    width: 350px;
+    height: 300px;
+}
+.borderform{
+    border: 2px solid rgb(193, 193, 193);
+}
